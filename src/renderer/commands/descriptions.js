@@ -5,7 +5,7 @@ const commandDescriptions = Object.freeze({
 
   'mt.hide': 'MarkText: Hide MarkText',
   'mt.hide-others': 'MarkText: Hide Others',
-  'file.new-file': 'File: New Window',
+  'file.new-window': 'File: New Window',
   'file.new-tab': 'File: New Tab',
   'file.open-file': 'File: Open file',
   'file.open-folder': 'File: Open Folder',
@@ -81,6 +81,7 @@ const commandDescriptions = Object.freeze({
   'view.toggle-sidebar': 'View: Toggle Sidebar',
   'view.toggle-toc': 'View: Toggle Table of Content',
   'view.toggle-tabbar': 'View: Toggle Tabs',
+  'view.reload-images': 'View: Force reload images',
   'view.toggle-dev-tools': 'View: Show Developer Tools (Debug)',
   'view.dev-reload': 'View: Reload Window (Debug)',
   'tabs.cycle-forward': 'Misc: Cycle Tabs Forward',
