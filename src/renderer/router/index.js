@@ -1,3 +1,10 @@
+/*
+ * @Author: lihu
+ * @Date: 2022-02-19 15:25:19
+ * @LastEditors: lihu
+ * @LastEditTime: 2022-02-19 21:45:13
+ * @FilePath: /marktext/src/renderer/router/index.js
+ */
 import App from '@/pages/app'
 import Preference from '@/pages/preference'
 import General from '@/prefComponents/general'
@@ -7,6 +14,7 @@ import SpellChecker from '@/prefComponents/spellchecker'
 import Theme from '@/prefComponents/theme'
 import Image from '@/prefComponents/image'
 import Keybindings from '@/prefComponents/keybindings'
+import ImageUploader from '@/prefComponents/imageUploader'
 
 const routes = type => ([{
   path: '/', redirect: type === 'editor' ? '/editor' : '/preference'
@@ -31,6 +39,8 @@ const routes = type => ([{
     path: 'image', component: Image, name: 'image'
   }, {
     path: 'keybindings', component: Keybindings, name: 'keybindings'
+  }, {
+    path: 'imageuploader', component: ImageUploader, name: 'Image Uploader'
   }]
 }])
 

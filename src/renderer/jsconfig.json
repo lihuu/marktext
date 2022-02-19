@@ -3,6 +3,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es2020",
+    "baseUrl": ".",
     "paths": {
       "common/*": ["../common/*"],
       "muya/*": ["../muya/*"],
