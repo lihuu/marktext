@@ -1,3 +1,10 @@
+/*
+ * @Author: lihu
+ * @Date: 2022-02-19 22:05:15
+ * @LastEditors: lihu
+ * @LastEditTime: 2022-02-19 22:15:00
+ * @FilePath: /marktext/src/renderer/prefComponents/sideBar/config.js
+ */
 import GeneralIcon from '@/assets/icons/pref_general.svg'
 import EditorIcon from '@/assets/icons/pref_editor.svg'
 import MarkdownIcon from '@/assets/icons/pref_markdown.svg'
@@ -5,6 +12,7 @@ import ThemeIcon from '@/assets/icons/pref_theme.svg'
 import ImageIcon from '@/assets/icons/pref_image.svg'
 import SpellIcon from '@/assets/icons/pref_spellcheck.svg'
 import KeyBindingIcon from '@/assets/icons/pref_key_binding.svg'
+import ImageUploadIcon from '@/assets/icons/pref_image_uploader.svg'
 
 import preferences from '../../../main/preferences/schema'
 
@@ -43,6 +51,11 @@ export const category = [{
   label: 'keybindings',
   icon: KeyBindingIcon,
   path: '/preference/keybindings'
+}, {
+  name: 'Image Uploader',
+  label: 'imageuploader',
+  icon: ImageUploadIcon,
+  path: '/preference/imageuploader'
 }]
 
 export const searchContent = Object.keys(preferences).map(k => {
